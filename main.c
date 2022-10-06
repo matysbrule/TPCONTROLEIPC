@@ -163,7 +163,7 @@ void saisie(int fd, int pidP2, int pidP3) {
     kill(pidP2, SIGINT);
 }
 
-int main(int argc, char** argv) {
+*/ int main(int argc, char** argv) {
     int pid, pidP1, pidP2, pidP3;
     int descTube[2]; //tube P1 / P2
     int descTube2[2]; //tube P2 / P3
@@ -199,5 +199,5 @@ int main(int argc, char** argv) {
             }
         }
     }
-    return (EXIT_SUCCESS);
-}
+    return (EXIT_SUCCESS); */
+} 
